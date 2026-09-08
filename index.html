@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>About Seungjoo Lee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./first.css">
+    <script>
+        function printHello() {
+            console.log("Hello, World!");
+        }
+        function changeColor() {
+            let h1El = document.querySelector(".my-title");
+            if (h1El.style.color == "red") {
+                h1El.style.color = "purple";
+            } else {
+                h1El.style.color = "red";
+            }
+        }
+    </script>
+</head>
+<body>
+    <button class="button" onclick="changeColor()">color</button>
+    <h1 class="my-title" style="color: red">
+        서울대학교 첨단융합학부 26학번 이승주입니다.
+    </h1>
+    <h2>
+
+    </h2>
+    
+</body>
+</html>
